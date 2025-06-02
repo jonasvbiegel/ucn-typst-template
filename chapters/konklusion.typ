@@ -1,3 +1,0 @@
-= Konklusion
-
-Brug Typst!
