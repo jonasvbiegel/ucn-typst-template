@@ -10,17 +10,17 @@
   ),
   supervisors: (
     "Lars",
-    "Mis"
+    "John",
   ),
   theme: "Semesterprojekt",
   projectperiod: "Forårssemestret",
-  group-number: "Gruppe 69",
+  group-number: "Gruppe 1",
   rev-number: "1",
   resume: [
     #lorem(100)
   ],
   characters: 2083, // unfortunately i couldnt find a good way to this automatically
-  body
+  body,
 )
 
 // main matter
@@ -28,7 +28,5 @@
 #include "chapters/eksempler.typ"
 #include "chapters/konklusion.typ"
 
-// bibliography
-
 // appendix
-  // make a appendix file and include it here
+// make a appendix file and include it here
