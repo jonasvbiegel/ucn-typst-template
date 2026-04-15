@@ -13,6 +13,7 @@
   rev-number: 1,
   resume: lorem(100),
   characters: 0,
+  repository: "https://github.com/jonasvbiegel/ucn-typst-template",
   body,
 ) = {
   set text(lang: "da", size: 12pt, font: "Palatino Linotype")
@@ -66,7 +67,7 @@
     },
     [*Oplagstal:* #{ rev-number }],
     [*Sidetal:* #str(calc.round(characters / 2400, digits: 1)) sider af #str(calc.trunc(characters)) anslag],
-    [*Repository:*\ #link("https://github.com/jonasvbiegel/ucn-typst-template")],
+    [*Repository:*\ #link({ repository })],
     [*Afleveringsdato:*\ #datetime.today().display("[day]/[month]-[year]")],
   )
 

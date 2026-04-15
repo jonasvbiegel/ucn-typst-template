@@ -20,6 +20,7 @@
     #lorem(100)
   ],
   characters: 2083, // unfortunately i couldnt find a good way to this automatically
+  repository: "https://github.com/jonasvbiegel/ucn-typst-template",
   body,
 )
 
